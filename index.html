@@ -37,6 +37,43 @@
     <![endif]-->
   </head>
   <body>
+
+
+
+
+    <!-- ====== Menu Section ====== -->
+    <section id="menu" style="position: sticky; top: 0; z-index: 999;">
+      <div class="navigation">
+        <!-- id="main-nav" -->
+        <div id class="navbar navbar-default" role="navigation">
+          <div class="container">
+
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="">Phoenix Dark</a>
+            </div> <!-- end .navbar-header -->
+
+            <div class="navbar-collapse collapse">
+              <ul id="ulnav" class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#top">Home</a></li>
+                <li><a href="#drawADeer">Draw a Deer</a></li>
+                <li><a href="#download">Download</a></li>
+              </ul>
+            </div><!-- end .navbar-collapse -->
+
+          </div> <!-- end .container -->
+        </div> <!-- end #main-nav -->
+      </div> <!-- end .navigation -->
+    </section>
+
+    <!-- ====== End Menu Section ====== -->
+
+
     <!-- ====== Header Section ====== -->
     <header id="top">
       <div class="bg-color">
@@ -47,7 +84,8 @@
               <div class="col-sm-7 col-md-7">
                 <div class="content">
                   <img src="./images/phoenix-dark-logo.png" style="margin-bottom: 20px;"  />
-                  <div class="button" id="download-app1" style="text-align: right;"">
+                  <!-- id="download-app1" -->
+                  <div class="button"  style="text-align: right;"">
                     <a href="#download" class="btn btn-default btn-lg custom-btn">Download App</a>
                   </div> <!-- end .button -->
                 </div> <!-- end .content -->
@@ -80,39 +118,11 @@
           </div> <!-- end .top> .container -->
         </div> <!-- end .top -->
       </div> <!-- end .bg-color -->
-    </header>
+  </header>
+
     <!-- ====== End Header Section ====== -->
 
 
-    <!-- ====== Menu Section ====== -->
-    <section id="menu">
-      <div class="navigation">
-        <div id="main-nav" class="navbar navbar-default" role="navigation">
-          <div class="container">
-
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="">Phoenix Dark</a>
-            </div> <!-- end .navbar-header -->
-
-            <div class="navbar-collapse collapse">
-              <ul id="ulnav" class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#top">Home</a></li>
-                <li><a href="#drawADeer">Draw a Deer</a></li>
-                <li><a href="#download">Download</a></li>
-              </ul>
-            </div><!-- end .navbar-collapse -->
-
-          </div> <!-- end .container -->
-        </div> <!-- end #main-nav -->
-      </div> <!-- end .navigation -->
-    </section>
-    <!-- ====== End Menu Section ====== -->
 
     <!-- ====== aboutApp Section ====== -->
     <section id="drawADeer">
@@ -213,7 +223,7 @@
     <script src="js/jquery.scrollto.min.js"></script>
 
     <!-- LocalScroll js -->
-    <script src="js/jquery.localscroll.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.3.5/jquery.localScroll.min.js"></script>
 
     <!-- jQuery Parallax plugin -->
     <script src="js/jquery.parallax-1.1.3.js"></script>
